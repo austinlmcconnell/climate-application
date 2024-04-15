@@ -58,34 +58,34 @@ API Static Routes
 
 -Includes a precipitation route that:  
 
-  -Returns json with the date as the key and the value as the precipitation  
+  &ensp;-Returns json with the date as the key and the value as the precipitation  
 	
-  -Only returns the jsonified precipitation data for the last year in the database  
+  &ensp;-Only returns the jsonified precipitation data for the last year in the database  
 	
 -Includes a stations route that:  
 
-  -Returns jsonified data of all of the stations in the database  
+  &ensp;-Returns jsonified data of all of the stations in the database  
 	
 -Includes a tobs route that:  
 
-  -Returns jsonified data for the most active station (USC00519281)  
+  &ensp;-Returns jsonified data for the most active station (USC00519281)  
 	
-  -Only returns the jsonified data for the last year of data  
+  &ensp;-Only returns the jsonified data for the last year of data  
 	
 
 API Dynamic Route  
 
 -Includes a start route that:  
 
-  -Accepts the start date as a parameter from the URL  
+  &ensp;-Accepts the start date as a parameter from the URL  
 	
-  -Returns the min, max, and average temperatures calculated from the given start date to the end of the dataset  
+  &ensp;-Returns the min, max, and average temperatures calculated from the given start date to the end of the dataset  
 	
 -Includes a start/end route that:  
 
-  -Accepts the start and end dates as parameters from the URL  
+  &ensp;-Accepts the start and end dates as parameters from the URL  
 	
-  -Returns the min, max, and average temperatures calculated from the given start date to the given end date  
+  &ensp;-Returns the min, max, and average temperatures calculated from the given start date to the given end date  
 	
 
 Coding Conventions and Formatting  
