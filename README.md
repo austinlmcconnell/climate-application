@@ -1,4 +1,4 @@
-Jupyter Notebook Database Connection  
+**Jupyter Notebook Database Connection**  
 
 -Uses the SQLAlchemy create_engine() function to connect to SQLite database  
 
@@ -11,7 +11,7 @@ Jupyter Notebook Database Connection
 -Closes session at the end of notebook  
 
 
-Precipitation Analysis  
+**Precipitation Analysis**  
 
 -Creates a query that finds the most recent date in the dataset (8/23/2017)  
 
@@ -26,7 +26,7 @@ Precipitation Analysis
 -Uses Pandas to print the summary statistics for the precipitation data  
 
 
-Station Analysis  
+**Station Analysis**  
 
 -Designs a query that correctly finds the number of stations in the dataset (9)  
 
@@ -41,7 +41,7 @@ Station Analysis
 -Correctly plots a histogram with bins=12 for the last year of data using tobs as the column to count  
 
 
-API SQLite Connection & Landing Page  
+**API SQLite Connection & Landing Page**  
 
 -Correctly generates the engine to the correct sqlite file  
 
@@ -54,7 +54,7 @@ API SQLite Connection & Landing Page
 -Displays the available routes on the landing page  
 
 
-API Static Routes  
+**API Static Routes**  
 
 -Includes a precipitation route that:  
 
@@ -73,7 +73,7 @@ API Static Routes
   &ensp;-Only returns the jsonified data for the last year of data  
 	
 
-API Dynamic Route  
+**API Dynamic Route**  
 
 -Includes a start route that:  
 
@@ -88,7 +88,7 @@ API Dynamic Route
   &ensp;-Returns the min, max, and average temperatures calculated from the given start date to the given end date  
 	
 
-Coding Conventions and Formatting  
+**Coding Conventions and Formatting**  
 
 -Places imports at the top of the file, just after any module comments and docstrings, and before module globals and constants  
 
